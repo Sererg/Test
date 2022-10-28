@@ -65,12 +65,13 @@ body {
 .quiz-list label {
 	cursor: pointer;
 	width: 100%;
+	border-radius: 8px;
     display: block;
 	padding: 1rem 0.5rem;
 }
 
 .quiz-list label:hover {
-	background-color: seashell;
+	background-color:rgba(77, 72, 72, 0.2);
 }
 
 .quiz-list label.correct {
@@ -165,4 +166,9 @@ body {
 	60% {
 		transform: translate3d(4px, 0, 0);
 	}
+}
+.quiz {
+	background-image:url('./assets/img/1.jpg');
+	background-size: cover;
+	
 }
